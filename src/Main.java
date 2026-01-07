@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        // entry and exit
+        // --entry and exit--
         Scanner scanner = new Scanner(System.in);
         System.out.println("Type a number between 1 and 10: ");
         int nmb = scanner.nextInt();
@@ -20,5 +20,9 @@ public class Main {
         String country = "BRAZIL";
         char letter = 'L';
         int[] numbers = {10, 12, 123};
+
+        // --call functions--
+        int result1 = Maths.sum(10, 10);
+        System.out.println(result1);
     }
 }

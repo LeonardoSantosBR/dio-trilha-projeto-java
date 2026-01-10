@@ -13,5 +13,14 @@ public class Main {
         // ===============================
         Variables.typesVariable();
         Operators.typesOperators();
+
+        // ===============================
+        // 3. INSTANCIANDO CLASSE SIMULANDO SMARTTV
+        // ===============================
+        SmartTv smartTv;
+        smartTv = new SmartTv(true, 1, 10, "LG");
+        smartTv.changeChannelTo(12);
+        smartTv.incrementOrDecrementVolume("INCREMENT");
+        System.out.println(smartTv);
     }
 }

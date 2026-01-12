@@ -22,5 +22,11 @@ public class Main {
         smartTv.changeChannelTo(12);
         smartTv.incrementOrDecrementVolume("INCREMENT");
         System.out.println(smartTv);
+
+        // ===============================
+        // 4. EXCEPTIONS e RUNTIMEEXCPETIONS
+        // ===============================
+        Exceptions.execptions();
+        HierarchyExceptions.hierarchyExceptions();
     }
 }

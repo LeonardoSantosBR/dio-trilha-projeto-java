@@ -1,3 +1,5 @@
+import exceptions.AgeAndHeightBelowToZero;
+
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
@@ -11,6 +13,9 @@ public class Exceptions {
 
             System.out.println("Digite sua altura: ");
             double height = scanner.nextDouble();
+
+            if (nmb <= 0 || height <= 0)
+                throw new AgeAndHeightBelowToZero();
         } catch (InputMismatchException e) {
             System.out.println("Idade e altura precisam ser numéricos.");
         }

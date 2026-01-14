@@ -1,8 +1,9 @@
 /**
+ * classe que armazena dados de uma smartv
+ * 
  * @author Leonardo Santos
  * @version 1.0
  * @since 09/01/2026
- *
  */
 public class SmartTv {
     public boolean isOn = false;

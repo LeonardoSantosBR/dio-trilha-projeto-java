@@ -6,7 +6,10 @@ public class EntryExit {
         System.out.println("Digite um número entre 1 e 10: ");
         int nmb = scanner.nextInt();
 
+        scanner.close();
+
         if (nmb < 1 || nmb > 10)
             throw new Exception("Número tem que estar entre 1 e 10");
     }
 }
+

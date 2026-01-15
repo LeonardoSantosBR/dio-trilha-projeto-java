@@ -1,6 +1,9 @@
+package poo;
+
 /**
  * classe que armazena dados de uma smartv
- * 
+ * //classe documentada com javadoc
+ *
  * @author Leonardo Santos
  * @version 1.0
  * @since 09/01/2026

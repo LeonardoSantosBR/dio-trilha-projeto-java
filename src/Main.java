@@ -1,3 +1,10 @@
+import poo.Documents;
+
+import java.time.LocalDate;
+import java.time.ZoneId;
+import java.util.Date;
+
+
 public class Main {
     public static void main(String[] args) throws Exception {
 
@@ -26,5 +33,24 @@ public class Main {
         // ===============================
         Exceptions.execptions();
         HierarchyExceptions.hierarchyExceptions();
+
+        // ===============================
+        // 5. POO
+        // ===============================
+        Documents person = new Documents(
+                1,
+                "Lucas Queiroz",
+                "lucasqueiroz123@gmail.com",
+                "senha@123",
+                Date.from(
+                        LocalDate.of(1998, 5, 10) // ano, mês, dia
+                                .atStartOfDay(ZoneId.systemDefault())
+                                .toInstant()),
+                "85896328222",
+                "CPF",
+                "416014652",
+                "12345678910"
+        );
+        System.out.println(person);
     }
 }

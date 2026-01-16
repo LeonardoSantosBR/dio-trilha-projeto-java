@@ -1,5 +1,7 @@
-import poo.Documents;
-import poo.SmartTv;
+import poo.inheritanceAndEncapsulation.Documents;
+import poo.classes.SmartTv;
+import poo.polimorfism.Birds;
+import poo.polimorfism.Tigers;
 
 import java.time.LocalDate;
 import java.time.ZoneId;
@@ -52,6 +54,11 @@ public class Main {
                 "416014652",
                 "12345678910"
         );
+        Birds bird = new Birds("canarinho", "Thraupidae", "Brazil");
+        Tigers tiger = new Tigers("Asian Tiger", "Felidae", "Malaysia");
+
+        bird.fly();
+        tiger.hunt();
         System.out.println(person);
     }
 }

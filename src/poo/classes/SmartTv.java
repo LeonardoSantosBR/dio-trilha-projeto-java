@@ -1,4 +1,4 @@
-package poo;
+package poo.classes;
 
 /**
  * classe que armazena dados de uma smartv

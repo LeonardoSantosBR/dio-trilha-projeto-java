@@ -13,12 +13,14 @@ public class SmartTv {
     public int channel = 1;
     public int volume = 0;
     public String name;
+    public FabricatedAtEnum fabricatedAtEnum;
 
-    public SmartTv(boolean isOn, int channel, int volume, String name) {
+    public SmartTv(boolean isOn, int channel, int volume, String name, FabricatedAtEnum fabricatedAtEnum) {
         this.isOn = isOn;
         this.channel = channel;
         this.volume = volume;
         this.name = name;
+        this.fabricatedAtEnum = fabricatedAtEnum;
     }
 
     /**

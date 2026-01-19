@@ -1,3 +1,4 @@
+import poo.classes.FabricatedAtEnum;
 import poo.inheritanceAndEncapsulation.Documents;
 import poo.classes.SmartTv;
 import poo.polimorfism.Birds;
@@ -26,7 +27,7 @@ public class Main {
         // 3. INSTANCIANDO CLASSE SIMULANDO SMARTTV
         // ===============================
         SmartTv smartTv;
-        smartTv = new SmartTv(true, 1, 10, "LG");
+        smartTv = new SmartTv(true, 1, 10, "LG", FabricatedAtEnum.BRASIL);
         smartTv.changeChannelTo(12);
         smartTv.incrementOrDecrementVolume("INCREMENT");
         System.out.println(smartTv);
